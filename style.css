@@ -17,8 +17,6 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 100vh;  
-    border: 5px solid red;
 }
 .container{
     padding: 10px 10%;
@@ -403,7 +401,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(./Bckgrnd.png);
+        background-image: url(./Images/Bckgrnd.png));
         background-size: cover;
         background-position: top;
         min-height:50vh;
