@@ -1,197 +1,196 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Website - Easy Tutorials</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    
-</head>
-<body>
-<div id="header">
-    <div class="container">
-        <nav>
-            <img src="./" class="logo">
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="fas fa-times" onclick="closemenu()"></i>
-            </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-            <h1>David <br>Oladejo</h1>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+            
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>David <br>Oladejo</h1>
+            </div>
         </div>
     </div>
-</div>
-<!-- -----------about---------- -->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="./Images/IMG_0574.png">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p> Hi! I am David Oladejo, An Undergraduate student at the University of Manitoba with hands-on experience in Python, JavaScript, Bash, and AWS. 
-                    During my free time, I like to build tools that automate tasks, and I also explore tools like MetaSploit and Splunk to secure and understand risks in the tech space.
-                    I am Passionate about becoming a SOC analyst or cloud security engineer.</p>
-                <p></p>
-
-                <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Languages</p>
-                    <p class="tab-links" onclick="opentab('education')">Tools</p>
-                    <p class="tab-links" onclick="opentab('experience')">Certifications</p>
-         
-              
+    <!-- -----------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/IMG_0574.png">
                 </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <div class="skills-tags">
-                      <span>Python</span>
-                      <span>PowerShell</span>
-                      <span>HTML</span>
-                      <span>CSS</span>
-                      <span>JavaScript</span>
-                      <span>Go</span>
-                      <span>SQL</span>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Hi! I am David Oladejo, An Undergraduate student at the University of Manitoba with hands-on experience in Python, JavaScript, Bash, and AWS. 
+                        During my free time, I like to build tools that automate tasks, and I also explore tools like MetaSploit and Splunk to secure and understand risks in the tech space.
+                        I am Passionate about becoming a SOC analyst or cloud security engineer.</p>
+                    <p></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Languages</p>
+                        <p class="tab-links" onclick="opentab('education')">Tools</p>
+                        <p class="tab-links" onclick="opentab('experience')">Certifications</p>
+            
+                
                     </div>
-                  </div>
-                  <div class="tab-contents" id="experience">
-                    <div class="skills-tags">
-                      <span>AWS Solutions Architect Associate – Expected July 2025</span>
-                      <span>AWS Certified Cloud Practitioner – May 2025</span>
-                      <span>PCEP-30-02 – October 2022</span>
-                      <span>Comptia Security + – Expected 2026</span>
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="skills-tags">
+                        <span>Python</span>
+                        <span>PowerShell</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Go</span>
+                        <span>SQL</span>
+                        </div>
                     </div>
-                  </div>
-                <div class="tab-contents" id="education">
-                    <div class="skills-tags">
-                      <span>AWS (EC2, IAM, S3)</span>
-                      <span>Git</span>
-                      <span>Linux</span>
-                      <span>Splunk</span>
-                      <span>R Studio</span>
-                      <span>Nmap</span>
-                      <span>VsCode</span>
+                    <div class="tab-contents" id="experience">
+                        <div class="skills-tags">
+                        <span>AWS Solutions Architect Associate – Expected July 2025</span>
+                        <span>AWS Certified Cloud Practitioner – May 2025</span>
+                        <span>PCEP-30-02 – October 2022</span>
+                        <span>Comptia Security + – Expected 2026</span>
+                        </div>
                     </div>
-                  </div>
+                    <div class="tab-contents" id="education">
+                        <div class="skills-tags">
+                        <span>AWS (EC2, IAM, S3)</span>
+                        <span>Git</span>
+                        <span>Linux</span>
+                        <span>Splunk</span>
+                        <span>R Studio</span>
+                        <span>Nmap</span>
+                        <span>VsCode</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Projects -->
-<div id="portfolio">
-    <div class="container">
-      <h1 class="sub-title">My Projects</h1>
-      <div class="work-list">
-  
-        <div class="work">
-          <img src="./Images/ChatGPT Image Jun 22, 2025, 02_17_46 PM.png" alt="Password Checker">
-          <div class="layer">
-            <h3>Password Policy Validator</h3>
-            <p style="font-style: italic;">A short python script that validates a password strenght based on certain criteria using regex and security best practices.<br>
-            Ideal for automated user account security checks</p>
-            <a href="https://github.com/fikun1/Password-Policy-Validator.git" target="_blank"><i class="fas fa-external-link-alt"></i></a>
-          </div>
-        </div>
-        <div class="work">
-            <img src="./Images/ChatGPT Image Jun 22, 2025, 02_23_34 PM.png" alt="CashFlowr project screenshot">
+    <!-- Projects -->
+    <div id="portfolio">
+        <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+    
+            <div class="work">
+            <img src="./Images/ChatGPT Image Jun 22, 2025, 02_17_46 PM.png" alt="Password Checker">
             <div class="layer">
-              <h3>Cloud security Mini-lab</h3>
-              <p style="font-style: italic;">Simulated an AWS cloud environment and implemented key security best practices using IAM
-                , S3 policies, and monitoring tools like CloudTrail and GuardDuty.</p>
-              <!-- <a href="https://github.com/fikun1/cashflowr" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
-              <a href="#" class="btn disabled">Coming Soon</a>
+                <h3>Password Policy Validator</h3>
+                <p style="font-style: italic;">A short python script that validates a password strenght based on certain criteria using regex and security best practices.<br>
+                Ideal for automated user account security checks</p>
+                <a href="https://github.com/fikun1/Password-Policy-Validator.git" target="_blank"><i class="fas fa-external-link-alt"></i></a>
             </div>
-          </div>
-        <div class="work">
-            <img src="./Images/ChatGPT Image Jun 22, 2025, 02_23_34 PM.png" alt="Tic Tac Toe project">
-            <div class="layer">
-              <h3>CashFlowr</h3>
-              <p style="font-style: italic;">An AI-powered budgeting and finance assiatant for students and young adults.</p>
-              <!-- <a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
-              <a href="#" class="btn disabled">Coming Soon</a>
             </div>
-          </div>
-         
-          <div class="work">
-            <img src="./Images/ChatGPT Image Jun 22, 2025, 02_23_34 PM.png" alt="Tic Tac Toe project">
-            <div class="layer">
-              <h3>null</h3>
-              <p>null</p>
-              <!-- <a href="https://github.com/fikun1/tictactoe" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
-              <a href="#" class="btn disabled">Coming Soon</a>
+            <div class="work">
+                <img src="./Images/ChatGPT Image Jun 22, 2025, 02_23_34 PM.png" alt="CashFlowr project screenshot">
+                <div class="layer">
+                <h3>Cloud security Mini-lab</h3>
+                <p style="font-style: italic;">Simulated an AWS cloud environment and implemented key security best practices using IAM
+                    , S3 policies, and monitoring tools like CloudTrail and GuardDuty.</p>
+                <!-- <a href="https://github.com/fikun1/cashflowr" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+                <a href="#" class="btn disabled">Coming Soon</a>
+                </div>
             </div>
-          </div>
-          </div>
-    </div>            
-  </div>
-
-  <div class="centered">
-    <a href="https://github.com/fikun1" class="btn btn-github" target="_blank">
-      <i class="fab fa-github"></i> GitHub
-    </a>
-  </div>
-  
-</div> 
-<!-- ----------contact------------- -->
-<div id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="contact-left">
-          <h1 class="sub-title">Contact Me</h1>
-          <p>
-            <i class="fas fa-paper-plane"></i>
-            <a href="mailto:davidoladejo200@gmail.com" style="color: white;">davidoladejo200@gmail.com</a>
-          </p>
-          <p>
-            <i class="fas fa-phone-square-alt"></i> 4317775704
-          </p>
-  
-          <!-- Centered Download Button -->
-          <a href="./DavidOladejoCv.docx" download class="btn btn2">Download CV</a>
-        </div>
-      </div>
+            <div class="work">
+                <img src="./Images/ChatGPT Image Jun 22, 2025, 02_23_34 PM.png" alt="Tic Tac Toe project">
+                <div class="layer">
+                <h3>CashFlowr</h3>
+                <p style="font-style: italic;">An AI-powered budgeting and finance assiatant for students and young adults.</p>
+                <!-- <a href="" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+                <a href="#" class="btn disabled">Coming Soon</a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="./Images/ChatGPT Image Jun 22, 2025, 02_23_34 PM.png" alt="Tic Tac Toe project">
+                <div class="layer">
+                <h3>null</h3>
+                <p>null</p>
+                <!-- <a href="https://github.com/fikun1/tictactoe" target="_blank"><i class="fas fa-external-link-alt"></i></a> -->
+                <a href="#" class="btn disabled">Coming Soon</a>
+                </div>
+            </div>
+            </div>
+        </div>            
     </div>
-  </div>
-  
+
+    <div class="centered">
+        <a href="https://github.com/fikun1" class="btn btn-github" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+        </a>
+    </div>
+    
+    </div> 
+    <!-- ----------contact------------- -->
+    <div id="contact">
+        <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+                <i class="fas fa-paper-plane"></i>
+                <a href="mailto:davidoladejo200@gmail.com" style="color: white;">davidoladejo200@gmail.com</a>
+            </p>
+            <p>
+                <i class="fas fa-phone-square-alt"></i> 4317775704
+            </p>
+    
+            <!-- Centered Download Button -->
+            <a href="./DavidOladejoCv.docx" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    
 
 
 
-<script>
+    <script>
 
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
 
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
         }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
         }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
 
-</script>
+    </script>
 
-<script>
-
-    var sidemeu = document.getElementById("sidemenu");
-
-    function openmenu(){
-        sidemeu.style.right = "0";
-    }
-    function closemenu(){
-        sidemeu.style.right = "-200px";
-    }
-
-</script>
-
-</body>
-</html>
+    </body>
+    </html>
