@@ -401,7 +401,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(./Images/Bckgrnd.png));
+        background-image: url(./Images/Background.png);
         background-size: cover;
         background-position: top;
         min-height:50vh;
